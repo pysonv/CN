@@ -1,0 +1,18 @@
+Server Side:-
+
+Server is running...
+Client connected!
+Client: Hi there!
+Client: How's it going?
+Client: Bye!
+
+Client Side:-
+
+Connecting to server...
+Connected to server!
+Hi there!
+Server: Hello!
+How's it going?
+Server: Pretty good. You?
+Bye!
+Server: See you soon!
