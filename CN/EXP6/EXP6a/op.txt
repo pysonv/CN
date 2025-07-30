@@ -1,0 +1,3 @@
+Output:-
+Enter IP address to resolve: 192.168.1.3
+MAC Address: AA:BB:CC:DD:EE:02

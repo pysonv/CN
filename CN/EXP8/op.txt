@@ -1,0 +1,3 @@
+TCP Throughput: 2.5 Mbps
+UDP Throughput: 3.2 Mbps
+Packet Loss (UDP): 0.5%
