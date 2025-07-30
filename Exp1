@@ -1,0 +1,235 @@
+Microsoft Windows [Version 10.0.19045.5854]
+(c) Microsoft Corporation. All rights reserved.
+
+CUsershp/ipconfig all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . .  DESKTOP-NEL07UC
+   Primary Dns Suffix  . . . . . . . 
+   Node Type . . . . . . . . . . . .  Hybrid
+   IP Routing Enabled. . . . . . . .  No
+   WINS Proxy Enabled. . . . . . . .  No
+
+Ethernet adapter Ethernet 3
+
+   Connection-specific DNS Suffix  . 
+   Description . . . . . . . . . . .  Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . .  F4-39-09-0D-15-0C
+   DHCP Enabled. . . . . . . . . . .  Yes
+   Autoconfiguration Enabled . . . .  Yes
+   Link-local IPv6 Address . . . . .  fe80728670cf3ab42f06%14(Preferred)
+   IPv4 Address. . . . . . . . . . .  172.15.14.4(Preferred)
+   Subnet Mask . . . . . . . . . . .  255.255.224.0
+   Lease Obtained. . . . . . . . . .  Tuesday, May 20, 2025 74125 PM
+   Lease Expires . . . . . . . . . .  Tuesday, May 27, 2025 74124 PM
+   Default Gateway . . . . . . . . .  172.15.0.1
+   DHCP Server . . . . . . . . . . .  172.15.0.1
+   DHCPv6 IAID . . . . . . . . . . .  267663625
+   DHCPv6 Client DUID. . . . . . . .  00-01-00-01-2F-6A-9C-E9-F4-39-09-0D-15-0C
+   DNS Servers . . . . . . . . . . .  8.8.8.8
+                                       103.8.46.5
+                                       103.8.45.5
+   NetBIOS over Tcpip. . . . . . . .  Enabled
+
+CUsershp/netstat -an
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0135            0.0.0.00              LISTENING
+  TCP    0.0.0.0445            0.0.0.00              LISTENING
+  TCP    0.0.0.05040           0.0.0.00              LISTENING
+  TCP    0.0.0.05357           0.0.0.00              LISTENING
+  TCP    0.0.0.07680           0.0.0.00              LISTENING
+  TCP    0.0.0.049664          0.0.0.00              LISTENING
+  TCP    0.0.0.049665          0.0.0.00              LISTENING
+  TCP    0.0.0.049666          0.0.0.00              LISTENING
+  TCP    0.0.0.049667          0.0.0.00              LISTENING
+  TCP    0.0.0.049668          0.0.0.00              LISTENING
+  TCP    0.0.0.049671          0.0.0.00              LISTENING
+  TCP    172.15.14.4139        0.0.0.00              LISTENING
+  TCP    172.15.14.47680       172.15.1.050441       TIME_WAIT
+  TCP    172.15.14.47680       172.15.1.050450       TIME_WAIT
+  TCP    172.15.14.47680       172.15.1.050453       TIME_WAIT
+  TCP    172.15.14.47680       172.15.1.050456       TIME_WAIT
+  TCP    172.15.14.47680       172.15.1.050462       TIME_WAIT
+  TCP    172.15.14.47680       172.15.7.8058386      TIME_WAIT
+  TCP    172.15.14.47680       172.15.13.25058914    TIME_WAIT
+  TCP    172.15.14.47680       172.15.22.19354161    TIME_WAIT
+  TCP    172.15.14.47680       172.15.23.16453797    TIME_WAIT
+  TCP    172.15.14.47680       172.15.23.16453824    TIME_WAIT
+  TCP    172.15.14.47680       172.15.23.16453842    TIME_WAIT
+  TCP    172.15.14.449670      4.213.25.242443       ESTABLISHED
+  TCP    172.15.14.449691      13.107.213.254443     CLOSE_WAIT
+  TCP    172.15.14.449903      23.65.124.88443       ESTABLISHED
+  TCP    172.15.14.449941      23.202.229.23443      CLOSE_WAIT
+  TCP    172.15.14.449943      23.202.229.22443      CLOSE_WAIT
+  TCP    172.15.14.449953      23.65.124.1180        TIME_WAIT
+  TCP    172.15.14.449961      204.79.197.203443     ESTABLISHED
+  TCP    172.15.14.449962      20.189.173.6443       ESTABLISHED
+  TCP    172.15.14.449963      52.231.230.148443     ESTABLISHED
+  TCP    172.15.14.449964      18.161.229.129443     ESTABLISHED
+  TCP    172.15.14.449965      14.98.16.11443        ESTABLISHED
+  TCP    172.15.14.449966      204.79.197.203443     ESTABLISHED
+  TCP    172.15.14.449967      14.98.16.11443        ESTABLISHED
+  TCP    172.15.14.449972      23.202.229.23443      ESTABLISHED
+  TCP    172.15.14.449977      23.62.16.168443       ESTABLISHED
+  TCP    172.15.14.449978      20.189.173.6443       ESTABLISHED
+  TCP    172.15.14.449979      23.202.229.23443      ESTABLISHED
+  TCP    172.15.14.449980      23.202.229.22443      ESTABLISHED
+  TCP    172.15.14.449984      23.202.229.23443      ESTABLISHED
+  TCP    172.15.14.449985      13.107.246.58443      ESTABLISHED
+  TCP    172.15.14.449986      20.190.145.140443     ESTABLISHED
+  TCP    172.15.14.449987      13.107.246.58443      ESTABLISHED
+  TCP    172.15.14.449988      104.16.79.73443       TIME_WAIT
+  TCP    172.15.14.449989      52.139.252.32443      ESTABLISHED
+  TCP    172.15.14.449991      104.18.32.47443       ESTABLISHED
+  TCP    172.15.14.449996      3.233.158.25443       CLOSE_WAIT
+  TCP    172.15.14.449997      104.16.79.73443       ESTABLISHED
+  TCP    172.15.14.449999      162.159.138.60443     ESTABLISHED
+  TCP    172.15.14.450000      34.120.202.204443     ESTABLISHED
+  TCP    172.15.14.450001      20.42.65.88443        ESTABLISHED
+  TCP    172.15.14.450002      151.101.64.217443     ESTABLISHED
+  TCP    172.15.14.450003      151.101.192.217443    ESTABLISHED
+  TCP    172.15.14.450004      151.101.192.217443    ESTABLISHED
+  TCP    172.15.14.450005      151.101.192.217443    ESTABLISHED
+  TCP    172.15.14.450006      142.250.206.67443     ESTABLISHED
+  TCP    172.15.14.450007      34.120.202.204443     ESTABLISHED
+  TCP    172.15.14.450008      104.18.32.47443       ESTABLISHED
+  TCP    172.15.14.450009      172.64.155.209443     ESTABLISHED
+  TCP    172.15.14.450010      104.16.79.73443       ESTABLISHED
+  TCP    172.15.14.450012      142.251.43.206443     ESTABLISHED
+  TCP    172.15.14.450013      172.64.155.209443     ESTABLISHED
+  TCP    172.15.14.450014      13.107.6.158443       ESTABLISHED
+  TCP    172.15.14.450015      52.111.252.17443      ESTABLISHED
+  TCP    172.15.14.450016      204.79.197.203443     ESTABLISHED
+  TCP    172.15.14.450017      150.171.28.10443      ESTABLISHED
+  TCP    172.15.14.450018      150.171.27.12443      ESTABLISHED
+  TCP    172.15.14.450019      35.190.80.1443        ESTABLISHED
+  TCP    172.15.14.450020      35.190.80.1443        ESTABLISHED
+  TCP    172.15.14.450021      3.233.158.25443       ESTABLISHED
+  TCP    []135               []0                 LISTENING
+  TCP    []445               []0                 LISTENING
+  TCP    []5357              []0                 LISTENING
+  TCP    []7680              []0                 LISTENING
+  TCP    []49664             []0                 LISTENING
+  TCP    []49665             []0                 LISTENING
+  TCP    []49666             []0                 LISTENING
+  TCP    []49667             []0                 LISTENING
+  TCP    []49668             []0                 LISTENING
+  TCP    []49671             []0                 LISTENING
+  UDP    0.0.0.0123            
+  UDP    0.0.0.03702           
+  UDP    0.0.0.03702           
+  UDP    0.0.0.05050           
+  UDP    0.0.0.05353           
+  UDP    0.0.0.05353           
+  UDP    0.0.0.05353           
+  UDP    0.0.0.05355           
+  UDP    0.0.0.051708          
+  UDP    0.0.0.052844          
+  UDP    0.0.0.056430          
+  UDP    0.0.0.057954          
+  UDP    0.0.0.059248          
+  UDP    0.0.0.063522          
+  UDP    0.0.0.064452          
+  UDP    0.0.0.064743          
+  UDP    127.0.0.11900         
+  UDP    127.0.0.154440        
+  UDP    127.0.0.157956        
+  UDP    172.15.14.4137        
+  UDP    172.15.14.4138        
+  UDP    172.15.14.41900       
+  UDP    172.15.14.454439      
+  UDP    []123               
+  UDP    []3702              
+  UDP    []3702              
+  UDP    []5353              
+  UDP    []5353              
+  UDP    []5355              
+  UDP    []57955             
+  UDP    [1]1900             
+  UDP    [1]54438            
+  UDP    [fe80728670cf3ab42f06%14]1900  
+  UDP    [fe80728670cf3ab42f06%14]54437  
+
+CUsershp/nslookup google.com
+Server  dns.google
+Address  8.8.8.8
+
+Non-authoritative answer
+Name    google.com
+Addresses  24046800400782c200e
+          142.250.196.174
+
+
+CUsershpping google.com
+
+Pinging google.com [142.251.42.78] with 32 bytes of data
+Reply from 142.251.42.78 bytes=32 time=21ms TTL=119
+Reply from 142.251.42.78 bytes=32 time=20ms TTL=119
+Reply from 142.251.42.78 bytes=32 time=20ms TTL=119
+Reply from 142.251.42.78 bytes=32 time=22ms TTL=119
+
+Ping statistics for 142.251.42.78
+    Packets Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds
+    Minimum = 20ms, Maximum = 22ms, Average = 20ms
+
+CUsershptracert google.com
+
+Tracing route to google.com [142.251.42.78]
+over a maximum of 30 hops
+
+  1    1 ms    1 ms    1 ms  172-15-0-1.lightspeed.stlsmo.sbcglobal.net [172.15.0.1]
+  2     3 ms     4 ms     3 ms  111.93.231.117
+  3     2 ms     2 ms     2 ms  142.250.171.162
+  4     3 ms     3 ms     3 ms  142.251.227.215
+  5     3 ms     3 ms     3 ms  172.253.75.14
+  6     4 ms     4 ms     4 ms  64.233.174.2
+  7    20 ms    20 ms    20 ms  142.250.238.206
+  8    22 ms    23 ms    25 ms  192.178.110.205
+  9    20 ms    22 ms    22 ms  142.251.69.103
+ 10    22 ms    19 ms    21 ms  bom12s21-in-f14.1e100.net [142.251.42.78]
+
+Trace complete.
+
+CUsershp/icmp
+'icmp' is not recognized as an internal or external command,
+operable program or batch file.
+
+CUsershp/udp.port = 33434  icmp
+'udp.port' is not recognized as an internal or external command,
+operable program or batch file.
+'icmp' is not recognized as an internal or external command,
+operable program or batch file.
+
+CUsershpping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data
+Reply from 8.8.8.8 bytes=32 time=3ms TTL=120
+Reply from 8.8.8.8 bytes=32 time=6ms TTL=120
+Reply from 8.8.8.8 bytes=32 time=4ms TTL=120
+Reply from 8.8.8.8 bytes=32 time=3ms TTL=120
+
+Ping statistics for 8.8.8.8
+    Packets Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds
+    Minimum = 3ms, Maximum = 6ms, Average = 4ms
+
+CUsershp/tracert 8.8.8.8
+
+Tracing route to dns.google [8.8.8.8]
+over a maximum of 30 hops
+
+  1    1 ms    1 ms    1 ms  172-15-0-1.lightspeed.stlsmo.sbcglobal.net [172.15.0.1]
+  2    36 ms     5 ms     4 ms  111.93.231.117
+  3     3 ms     3 ms     3 ms  142.250.171.162
+  4     4 ms     4 ms     4 ms  216.239.43.137
+  5     3 ms     3 ms     3 ms  142.251.49.219
+  6     3 ms     3 ms     3 ms  dns.google [8.8.8.8]
+
+Trace complete.
+
+CUsershp
